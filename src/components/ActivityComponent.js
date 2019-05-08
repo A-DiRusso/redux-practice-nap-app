@@ -9,9 +9,9 @@ export default function ActivityComponent({
     return (
         <div>
             <div>{activity}</div>
-                <button onClick={handleClickEat}>Eat</button>
-                <button onClick={handleClickNap}>Nap</button>
-                <button onClick={handleClickPlay}>Play</button>
+                <button onClick={handleClickEat}>EAT</button>
+                <button onClick={handleClickNap}>NAP</button>
+                <button onClick={handleClickPlay}>PLAY</button>
         </div>
     );
 }

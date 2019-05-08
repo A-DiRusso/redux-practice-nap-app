@@ -12,15 +12,19 @@ const mapStateToProps = state => {
     };
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
+    console.log('mapDispatchToProps');
     return {
         handleClickEat: () => {
+            console.log('handleClickEat');
             dispatch(setActivityEat());
         },
         handleClickNap: () => {
+            console.log('handleClickNap')
             dispatch(setActivityNap());
         },
         handleClickPlay: () => {
+            console.log('handleClickPlay')
             dispatch(setActivityPlay());
         },
     };
